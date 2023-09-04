@@ -25,15 +25,37 @@
     <meta name="theme-color" content="#31d53d" />
   </head>
   <body>
-    <header class="logo_inicial">
       <div class="card-login">
-        <img src="../src/assets/svg/good-doggy-animate.svg" alt="img-login">
+        <img src="assets/svg/good-doggy-animate.svg" alt="img-login">
         <h1 class="logo-name">iPet</h1>
       </div>
-    </header>
     <div class="main-login">
       <h1 class="Login">Login</h1>
-      
+      <form method="POST">
+
+        <label for="email">
+          <div>
+            <img src="assets/icon/icon-email.png">
+            <span>Email:</span>
+          </div>
+          <input type="email" name="email" id="email">
+        </label>
+
+        <label for="senha">
+          <div>
+            <img src="assets/icon/icon-senha.png">
+            <span>Senha:</span>
+          </div>
+          <input type="email" name="email" id="email">
+        </label>
+
+        <a href=""><img src="assets/icon/icon-guest.png">Visitante</a>
+
+        <input type="submit" value="LOGIN">
+      </form>
+
+      <a href="">Esqueceu a senha?</a>
+
     </div>
 
     <script src="./js/capacitor-welcome.js" type="module"></script>
