@@ -46,18 +46,22 @@
             <img src="assets/icon/icon-senha.png">
             <span>Senha:</span>
           </div>
-          <input type="email" name="email" id="email">
+          <input type="password" name="password" id="password">
         </label>
 
-        <a href=""><img src="assets/icon/icon-guest.png">Visitante</a>
+        <div class="guest">
+          <a href=""><img src="assets/icon/icon-guest.png">Visitante</a>
+        </div>
 
-        <input type="submit" value="LOGIN">
+        <input class="submit" type="submit" value="LOGIN">
       </form>
 
-      <a href="">Esqueceu a senha?</a>
-
+      <a class="forgot-passsword" href="">Esqueceu a senha?</a>
     </div>
 
+    <div>
+      <p>Não possui uma conta? <a href="">Cadastre-se</a></p>
+    </div>
     <script src="./js/capacitor-welcome.js" type="module"></script>
   </body>
 </html>
