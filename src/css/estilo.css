@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body{
+    background-color: #000;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title .logo-name{
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    font-family: MonteCarlo;
+    font-size: 70px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.title .cadastro{
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 35%;
+}
+
+.main-cadaster {
+    display: flex;
+    color: #ffffff;    
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form label input {
+    background-color: #333333;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 45px;
+    font-size: 90%;
+    border: 0;
+    margin: 10px;
+}
+
+form label input:focus{
+    outline: 0;
+}
+
+form label div img{
+    position: absolute;
+    width: 26px;
+    transform: translateY(20px);
+    margin-left: 20px;
+}
+
+form label div span{
+    color: #fff;
+    position: absolute;
+    font-size: 10px;
+    margin-left: 50px;
+    transform: translateY(14px);
+  }
+
+.term-check {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 21px;
+}
+
+.term-check p {
+    align-items: center;
+    font-size: 12px;
+}
+
+
+.submit{
+    padding: 15px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 40px;
+    width: 50%;
+    font-weight: 600;
+    color: #000;
+    background-color: #e5c32c;
+}
+
+.submit-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
