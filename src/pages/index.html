@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>iPet</title>
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"
+    ></script>
+
+    <link rel="icon" type="image/x-icon" href="#" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="../css/style-index.css" />
+    <meta name="theme-color" content="#31d53d" />
+  </head>
+  <body>
+      <div class="card-login">
+        <img src="../assets/svg/svg-index.svg" alt="img-login">
+        <h1 class="logo-name">iPet</h1>
+      </div>
+    <div class="main-login">
+      <h1 class="Login">Login</h1>
+      <form method="POST">
+
+        <label for="email">
+          <div>
+            <img src="../assets/icon/icon-email.png">
+            <span>Email:</span>
+          </div>
+          <input type="email" name="email" id="email">
+        </label>
+
+        <label for="senha">
+          <div>
+            <img src="../assets/icon/icon-senha.png">
+            <span>Senha:</span>
+          </div>
+          <input type="password" name="password" id="password">
+        </label>
+
+        <div class="guest">
+          <a href="home.html"><img src="../assets/icon/icon-guest.png">Visitante</a>
+        </div>
+
+        <input class="submit" type="submit" value="LOGIN">
+      </form>
+
+      <a class="forgot-passsword" href="forgot.html">Esqueceu a senha?</a>
+    </div>
+
+    <div>
+      <p>Não possui uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+    </div>
+    <script src="../js/capacitor-welcome.js" type="module"></script>
+  </body>
+</html>

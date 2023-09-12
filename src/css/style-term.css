@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: black;
+}
+
+.title img {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    margin: 6px;
+    transform: translateX(5px);
+}
+
+.title h1{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.term-text p {
+    font-size: 14px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}

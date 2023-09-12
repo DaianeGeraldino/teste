@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style-register.css" />
+    <title>Cadastro - iPet</title>
+</head>
+<body>
+    <div class="title">
+        <h1 class="cadastro">Cadastro</h1>    
+    </div>
+    <div class="main-cadaster">
+        <form method="POST">
+
+            <label for="nome">
+                <div>
+                    <img src="../assets/icon/icon-conta.png">
+                    <span>Nome completo:</span>
+                </div>
+                <input type="nome" name="nome" id="nome">
+            </label>
+
+            <label for="cpf">
+                <div>
+                    <img src="../assets/icon/icon-id.png">
+                    <span>CPF:</span>
+                </div>
+                <input type="cpf" name="cpf" id="cpf">
+            </label>
+
+            <label for="data_nascimento">
+                <div>
+                    <img src="../assets/icon/icon-date.png">
+                    <span>data de nascimento:</span>
+                </div>
+                <input type="date" name="data_nascimento" id="data_nascimento">
+            </label>
+
+            <label for="telefone">
+                <div>
+                    <img src="../assets/icon/icon-telefone.png">
+                    <span>Telefone:</span>
+                </div>
+                <input type="tel" name="telefone" id="telefone">
+            </label>
+
+            <label for="email">
+                <div>
+                    <img src="../assets/icon/icon-email.png">
+                    <span>Email:</span>
+                </div>
+                <input type="email" name="email" id="email">
+            </label>
+
+            <label for="senha">
+                <div>
+                    <img src="../assets/icon/icon-senha.png">
+                    <span>Senha:</span>
+                </div>
+                <input type="password" name="senha" id="senha" minlength="8" maxlength="12" required>
+            </label>
+
+            <label for="confirm-senha">
+                <div>
+                <img src="../assets/icon/icon-senha.png">
+                <span>Confirme a senha:</span>
+                </div>
+                <input type="password" name="confirm-senha" id="confirm-senha">
+            </label>
+
+            <label for="term" class="switch"> 
+                <div class="term-check">
+                    <input type="checkbox" name="termo" id="termo"><p>Eu li e concordo com os <a href="term.html">Termos de Uso e Políticas de Privacidade.</a></p>
+                </div>
+            </label>
+            <div class="submit-div">
+                <input class="submit" type="submit" value="CADASTRO">
+            </div>
+            <div class="login">
+                <p>Possui uma conta? <a href="index.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
